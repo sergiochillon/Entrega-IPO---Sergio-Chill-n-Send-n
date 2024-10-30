@@ -1,0 +1,160 @@
+:root{
+    --color-azul: #1463d2; 
+    
+    --color-negro: #272727;   
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    color: #272727;
+
+    margin: 0 ;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    
+    
+}
+
+
+header {
+    background: linear-gradient(90deg, rgb(4, 72, 219), #7e8dbb);
+    
+    color: white;
+    text-align: center;
+    padding: 1px;
+
+    height: 160px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+  
+nav#menu{
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 0;
+
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(4, 72, 219), #7e8dbb);
+    padding: 1px;
+    margin-top: -120px;
+    text-align: center;
+    height: 90px;
+
+    
+}
+nav#menu ul {
+    list-style-type: none;
+    font-size: 2.5rem;
+    margin-top: 0;
+    position: relative;
+    
+    
+
+
+}
+nav#menu li  {
+    list-style: none;
+    display: inline-flex;
+    margin: 15px;
+
+  }
+  nav#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  nav#menu a:hover {
+    text-decoration: underline; 
+    color: rgba(255, 255, 255, 0.63)
+}
+
+
+
+
+
+
+/* Main Content */
+main {
+    padding: 0;
+    padding-top: 2rem;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    
+    
+    
+}
+
+main section {
+    margin: 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin: 30px;
+
+}
+
+main p {
+    margin: 30px;
+}
+
+main a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.imagen1 {
+    text-align: center; 
+}
+
+.imagen1 img {
+    max-width: 70%; 
+    height: auto; 
+}
+
+.imagenes2y3 {
+    display: flex; /* Utiliza Flexbox para alinear los elementos en una línea */
+    justify-content: space-between; /* Espacio entre las imágenes, puedes cambiarlo a flex-start si prefieres que se alineen a la izquierda */
+    
+}
+
+.imagen2, .imagen3 {
+    flex: 1; 
+    text-align: center; 
+
+}
+.imagen2{
+    margin-left: 80px;
+}
+.imagen3{
+    margin-right: 60px;
+}
+
+.imagen2 img, .imagen3 img {
+    max-width: 80%; 
+    height: 300px; 
+    border-radius: 20px;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background: linear-gradient(90deg, #7d7982, #6c89dd);
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
